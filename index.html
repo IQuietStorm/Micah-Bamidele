@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Micah Bammidele</title>
-    <!-- Tailwind CSS for sleek styling -->
+    <title>Micah Rodney Bamidele | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome for crisp social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom configuration for the Silver & Blue Palette -->
     <script>
         tailwind.config = {
             theme: {
@@ -35,13 +32,12 @@
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
-<body class="bg-brandSilver-light text-brandBlue-dark font-sans min-h-screen flex flex-col justify-between">
+<body class="bg-brandSilver-light text-brandBlue-dark font-sans min-h-screen flex flex-col justify-between selection:bg-brandBlue selection:text-white">
 
-    <!-- Header / Navbar -->
     <header class="bg-brandBlue text-brandSilver shadow-md sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold tracking-wide border-b-2 border-brandSilver-dark pb-1">PORTFOLIO</h1>
-            <nav class="space-x-6">
+            <h1 class="text-xl font-bold tracking-wide border-b-2 border-brandSilver-dark pb-1">Gallery</h1>
+            <nav class="space-x-6 text-sm font-medium">
                 <a href="#about" class="hover:text-white transition duration-300">About</a>
                 <a href="#gallery" class="hover:text-white transition duration-300">Gallery</a>
                 <a href="#connect" class="hover:text-white transition duration-300">Connect</a>
@@ -49,30 +45,26 @@
         </div>
     </header>
 
-    <!-- Main Content Container -->
-    <main class="max-w-4xl mx-auto px-4 py-10 space-y-16 flex-grow w-full">
+    <main class="max-w-5xl mx-auto px-4 py-10 space-y-16 flex-grow w-full">
 
-        <!-- Hero & Biodata Section -->
         <section id="about" class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-brandSilver transition-all duration-300 hover:shadow-2xl">
             <div class="border-b-2 border-brandSilver pb-6 mb-8">
-                <h2 class="text-3xl md:text-4xl font-extrabold text-brandBlue">Micah Rodney Bamidele</h2>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brandBlue">Bamidele Micah</h2>
                 <p class="text-lg text-brandSilver-dark font-medium mt-1">Full-Stack Systems Architect & Software Developer</p>
             </div>
 
-            <!-- Biodata Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm md:text-base">
                 <div class="space-y-3">
-                    <p><strong class="text-brandBlue-light">Email:</strong> <a href="mailto:bamidelemicah@gmail.com" class="text-gray-600 hover:text-brandBlue-light transition">bamidelemicah@gmail.com</a></p>
-                    <p><strong class="text-brandBlue-light">Date of Birth:</strong> <span class="text-gray-600">January 1, 1992</span></p>
-                    <p><strong class="text-brandBlue-light">Place of Birth:</strong> <span class="text-gray-600">Nigeria</span></p>
+                    <p><strong class="text-brandBlue-light w-32 inline-block">Email:</strong> <a href="mailto:bamidelemicah@gmail.com" class="text-gray-600 hover:text-brandBlue-light transition break-all">bamidelemicah@gmail.com</a></p>
+                    <p><strong class="text-brandBlue-light w-32 inline-block">Date of Birth:</strong> <span class="text-gray-600">January 15, 1992</span></p>
+                    <p><strong class="text-brandBlue-light w-32 inline-block">Place of Birth:</strong> <span class="text-gray-600">Nigeria</span></p>
                 </div>
                 <div class="space-y-3">
-                    <p><strong class="text-brandBlue-light">Core Focus:</strong> <span class="text-gray-600">Web Applications & Network Infrastructure</span></p>
-                    <p><strong class="text-brandBlue-light">Specialties:</strong> <span class="text-gray-600">Next.js, Supabase, Cloud Architecture</span></p>
+                    <p><strong class="text-brandBlue-light w-32 inline-block">Core Focus:</strong> <span class="text-gray-600">Web Applications & Network Infrastructure</span></p>
+                    <p><strong class="text-brandBlue-light w-32 inline-block">Specialties:</strong> <span class="text-gray-600">Next.js, Supabase, Cloud Architecture</span></p>
                 </div>
             </div>
 
-            <!-- Achievements -->
             <div class="mt-8 bg-brandSilver-light p-6 rounded-xl border border-brandSilver">
                 <h3 class="text-lg font-bold text-brandBlue mb-3 flex items-center">
                     <i class="fa-solid fa-trophy text-amber-500 mr-2"></i> Key Achievements & Projects
@@ -85,76 +77,68 @@
             </div>
         </section>
 
-        <!-- Picture Carousel Section (Local Folder Sourced) -->
         <section id="gallery" class="bg-white rounded-2xl shadow-xl p-6 border border-brandSilver">
-            <h3 class="text-2xl font-bold text-brandBlue text-center mb-6">Gallery</h3>
+            <h3 class="text-2xl font-bold text-brandBlue text-center mb-6">Project Gallery</h3>
             
-            <div class="relative max-w-2xl mx-auto overflow-hidden rounded-xl bg-brandBlue h-64 md:h-96 shadow-md">
-                <!-- Slide 1 -->
+            <div class="relative max-w-3xl mx-auto overflow-hidden rounded-xl bg-brandBlue h-64 md:h-96 shadow-md">
                 <div class="carousel-item active h-full w-full relative">
-                    <img src="image 1.jpg" class="w-full h-full object-cover" alt="Micah">
-                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah</div>
+                    <img src="image 1.jpg" class="w-full h-full object-cover" alt="Project Image 1">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah Bamidele</div>
                 </div>
-                <!-- Slide 2 -->
                 <div class="carousel-item h-full w-full relative">
-                    <img src="image 2.jpg" class="w-full h-full object-cover" alt="Micah">
-                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah</div>
+                    <img src="image 2.jpg" class="w-full h-full object-cover" alt="Project Image 2">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah Bamidele</div>
                 </div>
-                <!-- Slide 3 -->
                 <div class="carousel-item h-full w-full relative">
-                    <img src="image 3.jpg" class="w-full h-full object-cover" alt="Micah">
-                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah</div>
+                    <img src="image 3.jpg" class="w-full h-full object-cover" alt="Project Image 3">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah Bamidele</div>
                 </div>
-                <!-- Slide 4 -->
                 <div class="carousel-item h-full w-full relative">
-                    <img src="image 4.jpg" class="w-full h-full object-cover" alt="Micah">
-                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah</div>
+                    <img src="image 4.jpg" class="w-full h-full object-cover" alt="Project Image 4">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah Bamidele</div>
                 </div>
-                <!-- Slide 5 -->
                 <div class="carousel-item h-full w-full relative">
-                    <img src="image 5.jpg" class="w-full h-full object-cover" alt="Micah">
-                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah</div>
+                    <img src="image 5.jpg" class="w-full h-full object-cover" alt="Project Image 5">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm">Micah Bamidele</div>
                 </div>
 
-                <!-- Slider Controls -->
-                <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white rounded-full p-2 h-10 w-10 flex items-center justify-center transition focus:outline-none">
+                <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white rounded-full p-2 h-10 w-10 flex items-center justify-center transition focus:outline-none z-10">
                     <i class="fa-solid fa-chevron-left"></i>
                 </button>
-                <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white rounded-full p-2 h-10 w-10 flex items-center justify-center transition focus:outline-none">
+                <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white rounded-full p-2 h-10 w-10 flex items-center justify-center transition focus:outline-none z-10">
                     <i class="fa-solid fa-chevron-right"></i>
                 </button>
             </div>
         </section>
 
-        <!-- Animated Action Links / Connect Section -->
         <section id="connect" class="text-center space-y-6 bg-brandBlue text-brandSilver rounded-2xl p-8 shadow-xl">
             <div>
                 <h3 class="text-2xl font-bold">Let's Connect</h3>
                 <p class="text-sm text-brandSilver-dark mt-1">Available for freelance consulting and system deployment</p>
             </div>
 
-            <!-- Button Grid with Micro-interactions -->
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl mx-auto pt-2">
-                <!-- WhatsApp -->
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 max-w-4xl mx-auto pt-2">
+                <a href="https://github.com/IQuietStorm/" target="_blank" class="flex flex-col items-center justify-center p-4 bg-white/10 rounded-xl border border-white/10 hover:border-white hover:bg-white/20 text-white transform hover:-translate-y-1.5 transition-all duration-300 group">
+                    <i class="fa-brands fa-github text-2xl mb-2 text-white group-hover:scale-110 transition-transform"></i>
+                    <span class="text-xs font-semibold uppercase tracking-wider">GitHub</span>
+                </a>
+
                 <a href="https://wa.me/2347035885609" target="_blank" class="flex flex-col items-center justify-center p-4 bg-white/10 rounded-xl border border-white/10 hover:border-emerald-500 hover:bg-emerald-600/20 text-white transform hover:-translate-y-1.5 transition-all duration-300 group">
                     <i class="fa-brands fa-whatsapp text-2xl mb-2 text-emerald-400 group-hover:scale-110 transition-transform"></i>
                     <span class="text-xs font-semibold uppercase tracking-wider">WhatsApp</span>
                 </a>
 
-                <!-- Email -->
                 <a href="mailto:bamidelemicah@gmail.com" class="flex flex-col items-center justify-center p-4 bg-white/10 rounded-xl border border-white/10 hover:border-sky-400 hover:bg-sky-500/20 text-white transform hover:-translate-y-1.5 transition-all duration-300 group">
                     <i class="fa-solid fa-envelope text-2xl mb-2 text-sky-400 group-hover:scale-110 transition-transform"></i>
                     <span class="text-xs font-semibold uppercase tracking-wider">Email</span>
                 </a>
 
-                <!-- Instagram -->
                 <a href="https://instagram.com/Itz_QuietStorm" target="_blank" class="flex flex-col items-center justify-center p-4 bg-white/10 rounded-xl border border-white/10 hover:border-pink-500 hover:bg-pink-500/20 text-white transform hover:-translate-y-1.5 transition-all duration-300 group">
                     <i class="fa-brands fa-instagram text-2xl mb-2 text-pink-400 group-hover:scale-110 transition-transform"></i>
                     <span class="text-xs font-semibold uppercase tracking-wider">Instagram</span>
                 </a>
 
-                <!-- Facebook -->
-                <a href="https://fb.me/Midel101" target="_blank" class="flex flex-col items-center justify-center p-4 bg-white/10 rounded-xl border border-white/10 hover:border-blue-500 hover:bg-blue-600/20 text-white transform hover:-translate-y-1.5 transition-all duration-300 group">
+                <a href="https://fb.me/Midel101" target="_blank" class="flex flex-col items-center justify-center p-4 bg-white/10 rounded-xl border border-white/10 hover:border-blue-500 hover:bg-blue-600/20 text-white transform hover:-translate-y-1.5 transition-all duration-300 group col-span-2 sm:col-span-1">
                     <i class="fa-brands fa-facebook-f text-2xl mb-2 text-blue-400 group-hover:scale-110 transition-transform"></i>
                     <span class="text-xs font-semibold uppercase tracking-wider">Facebook</span>
                 </a>
@@ -163,12 +147,10 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="bg-brandBlue-dark text-brandSilver-dark text-xs py-6 text-center border-t border-brandBlue">
         <p>&copy; 2026 Bamidele Micah. All Rights Reserved.</p>
     </footer>
 
-    <!-- Carousel Functionality -->
     <script>
         let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel-item');
@@ -182,7 +164,7 @@
         function nextSlide() { showSlide(currentSlide + 1); }
         function prevSlide() { showSlide(currentSlide - 1); }
 
-        // Auto-play carousel every 5 seconds
+        // Auto-play carousel transition loop (5 seconds)
         setInterval(nextSlide, 5000);
     </script>
 
